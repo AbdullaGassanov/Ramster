@@ -39,7 +39,7 @@ body {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   position: fixed;
   z-index: 1000;
 }
