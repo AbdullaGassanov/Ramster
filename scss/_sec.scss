@@ -1,0 +1,81 @@
+.sec {
+  padding: 3rem 0;
+  height: max-content;
+  text-align: center;
+  width: 100%;
+  background-color: #f8f8f8;
+  &__title {
+    font-size: 2.76rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+  }
+
+  &__gallery {
+    width: $width-section;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 35rem);
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__img {
+    width: 35rem;
+    height: 25rem;
+    transition: 0.2s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-air {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:hover + figcaption {
+      opacity: 0.5;
+    }
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  &__price {
+    color: $primary-color;
+    font-size: 1.5rem;
+  }
+
+  &__brand {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(154, 154, 154);
+    text-transform: uppercase;
+  }
+
+  &__action {
+    text-align: center;
+    padding: 5rem 0;
+  }
+}

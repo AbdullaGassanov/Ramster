@@ -1,0 +1,58 @@
+.map {
+  background-color: #f8f8f8;
+  width: 100%;
+
+  padding: 4rem 0;
+
+  &__content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width-section;
+  }
+
+  &__left {
+    flex: 3;
+    padding: 1rem;
+  }
+
+  &__right {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: 2.7rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+  }
+
+  &__phones {
+    font-size: 2.7rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__address {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+  }
+
+  &__shedule {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+  }
+  &__road {
+    &-link {
+      color: $primary-color;
+      font-weight: 500;
+      font-size: 1.5rem;
+    }
+  }
+}

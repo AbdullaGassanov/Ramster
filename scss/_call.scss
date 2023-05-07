@@ -1,0 +1,20 @@
+.call {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  bottom: 10rem;
+  right: 2rem;
+  z-index: 10;
+  &__icon {
+    width: 5rem;
+    height: 5rem;
+    transition: 0.2s;
+    position: sticky;
+    &:hover {
+      box-shadow: 0.1rem -0.1rem 1rem rgb(185, 255, 115);
+      transform: scale(1);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}

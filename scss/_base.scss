@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+$primary-color: #000000;
+$secondary-color: #ffffff;
+$width-section: 144rem;
+
+html {
+  scroll-behavior: smooth;
+
+  font-size: 62.5%; //1rem = 10px , 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.shadow {
+  background-image: linear-gradient(
+    to right,
+    rgb(95, 95, 95),
+    rgba(95, 95, 95, 0.552)
+  );
+  opacity: 0.5;
+}

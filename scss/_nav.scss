@@ -1,0 +1,103 @@
+.nav {
+  padding: 3rem;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 100%;
+  transition: 0.3s;
+
+  &__content {
+    position: sticky;
+    top: 0;
+  }
+
+  &__close {
+    position: absolute !important;
+    right: -9rem;
+    padding: 1.4rem;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    top: 2rem;
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: $primary-color;
+  }
+
+  &__hide {
+    transform: translateX(-60rem);
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__sub-title {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+  }
+
+  &__item {
+    padding-bottom: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+
+    &-link {
+      font-size: 1.2rem;
+      font-weight: 400;
+      text-decoration: none;
+      color: $primary-color;
+      transition: 0.2s;
+      position: relative;
+      display: inline-block;
+      &:hover {
+        transform: translateX(1rem);
+        text-shadow: 1rem 1rem 2rem black;
+      }
+    }
+  }
+
+  &__contact {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    &-title {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+    &-phones {
+      display: flex;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    &-phone {
+      margin-right: 2rem;
+    }
+    &-address {
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 1rem 0;
+    }
+  }
+}

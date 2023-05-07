@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link
+      rel="shortcut icon"
+      href="img/icons8-react-32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body >
+
+
+
+    <nav class="nav nav__hide">
+
+		<div class="nav__content">
+
+			<div class="nav__close">
+				<svg class="nav__icon">
+					<use xlink:href="icons/symbol-defs.svg#icon-cross"></use>
+				</svg>
+			</div>
+			<h2 class="nav__title">Меню</р>
+			
+			<h3 class="nav__sub-title">Навигация</h3>
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#" class="nav__list-link">Шоурум</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">Доставка и оплата</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">Обмен и возврат</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">Личный кабинет</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">Контакты</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">Отзывы</a></li>
+				<li class="nav__item"><a href="#" class="nav__list-link">FAQ</a></li>
+			</ul>
+
+			<div class="nav__contact">
+				<div class="nav__contact-title">Контакты</div>
+				<div class="nav__contact-phones">
+					<span class="nav__contact-phone">+7 (915) 463-98-53</span><span class="contact__phone">+7 (999) 003-03-32</span>
+				</div>
+				<div class="nav__contact-address">
+					<span>м. Бауманская / Красносельская Улица Нижняя Красносельская 35с9 Цокольный этаж, помещение 003, Москва.</span>
+				</div>
+			</div>
+
+		</div>
+
+			
+	</nav>
+
+	<div class="page">
+	<div class="call">
+				<div class="call__icon">
+					<svg class="call__icon">
+						<use xlink:href="icons/symbol-defs.svg#icon-whatsapp"></use>
+					</svg>
+				</div>
+	</div>
+		<header class="header ">
+		<div class="header__content">
+			<div class="header__top">
+			<div class="header__hamburger">
+				<svg class="icon header__icon">
+				<use xlink:href="icons/symbol-defs.svg#icon-menu"></use>
+				</svg>
+				<span> Menu</span>
+			</div>
+			<div class="header__brand">
+				<span>Ramster Shop</span>
+				<div class="header__logo">
+				<img src="img/logo.PNG" alt="logo" />
+				</div>
+			</div>
+			<div class="header__action">
+				<svg class="icon header__icon">
+				<use xlink:href="icons/symbol-defs.svg#icon-search"></use>
+				</svg>
+				<svg class="icon header__icon">
+				<use xlink:href="icons/symbol-defs.svg#icon-user"></use>
+				</svg>
+				<svg class="icon header__icon">
+				<use xlink:href="icons/symbol-defs.svg#icon-shopping-cart"></use>
+				</svg>
+			</div>
+			</div>
+			<div class="header__footer">
+				<ol class="header__menu">
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Новые поступления</a>
+					</li>
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Акции </a>
+					</li>
+					
+
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link" data-brand="yeezy">YEEZY &#9661;</a>
+
+					<div class="header__menu-content" data-brandID="1">
+						<ul class="header__menu-list">
+							<li class="header__menu-list-item">YEEZY 350</li>
+							<li class="header__menu-list-item">YEEZY 380</li>
+							<li class="header__menu-list-item">YEEZY 450</li>
+							<li class="header__menu-list-item">YEEZY 500</li>
+							<li class="header__menu-list-item">YEEZY 700</li>
+							<li class="header__menu-list-item">desert boot</li>
+							<li class="header__menu-list-item">Yeezy foam </li>
+							<li class="header__menu-list-item">Yeezy slide</li>
+						</ul>
+					</div>
+
+					</li>
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link" data-brand="nike">Nike &#9661;</a>
+						<div class="header__menu-content" data-brandID="2">
+							<ul class="header__menu-list">
+								<li class="header__menu-list-item">Dunk</li>
+								<li class="header__menu-list-item">AirForce 1</li>
+								<li class="header__menu-list-item">Nike & Sacal</li>
+								<li class="header__menu-list-item">Air Max</li>
+								<li class="header__menu-list-item">Nike X OFF-White</li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link" data-brand="jordan" >Jordan 	&#9661;</a>
+							<div class="header__menu-content" data-brandID="3">
+								<ul class="header__menu-list">
+									<li class="header__menu-list-item">Air jordan 1</li>
+									<li class="header__menu-list-item">Air jordan 3</li>
+									<li class="header__menu-list-item">Air jordan 4</li>
+									<li class="header__menu-list-item">Air jordan 5</li>
+									<li class="header__menu-list-item">Air jordan 6</li>
+									<li class="header__menu-list-item">Air jordan 11</li>
+									<li class="header__menu-list-item">Air jordan 13</li>
+								</ul>
+							</div>
+					</li>
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link" data-brand="newbalance" >New balance &#9661;</a>
+							<div class="header__menu-content" data-brandID="4">
+								<ul class="header__menu-list">
+									<li class="header__menu-list-item">530</li>
+									<li class="header__menu-list-item">550</li>
+									<li class="header__menu-list-item">574</li>
+									<li class="header__menu-list-item">650R</li>
+									<li class="header__menu-list-item">827</li>
+									<li class="header__menu-list-item">2002R</li>
+									<li class="header__menu-list-item">990</li>
+									<li class="header__menu-list-item">991</li>
+									<li class="header__menu-list-item">992</li>
+									<li class="header__menu-list-item">9060</li>
+									<li class="header__menu-list-item">XC-72</li>
+									<li class="header__menu-list-item">1906D</li>
+									<li class="header__menu-list-item">1906R</li>
+									<li class="header__menu-list-item">997</li>
+									<li class="header__menu-list-item">Ct302</li>
+									<li class="header__menu-list-item">327</li>
+									<li class="header__menu-list-item">993</li>
+									<li class="header__menu-list-item">FuelCell</li>
+									<li class="header__menu-list-item">Rc</li>
+									<li class="header__menu-list-item">920</li>
+
+
+
+								</ul>
+							</div>
+
+					</li>
+					<li class="header__menu-item">
+					<a href="#" class="header__menu-link" data-brand="clothes">Одежда &#9661;</a>
+							<div class="header__menu-content" data-brandID="5">
+								<ul class="header__menu-list">
+									<li class="header__menu-list-item">Travis scott</li>
+									<li class="header__menu-list-item">supreme</li>
+									<li class="header__menu-list-item">fear of god</li>
+									<li class="header__menu-list-item">carhartt wip</li>
+									<li class="header__menu-list-item">chrome hearts</li>
+									<li class="header__menu-list-item">jordan</li>
+									<li class="header__menu-list-item">kith</li>
+
+								</ul>
+							</div>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link" data-brand="toys">Коллекционные фигурки &#9661;</a>
+					
+						<div class="header__menu-content" data-brandID="5">
+							<ul class="header__menu-list">
+									<li class="header__menu-list-item">Kaws</li>
+									<li class="header__menu-list-item">Medicom toy</li>
+
+							</ul>
+						</div>
+					</li>
+
+				<!-- 	&#10225; -->
+				</ol>
+			</div>
+		</div>
+		</header>
+		<main class="content">
+		<section class="intro ">
+			<div class="intro__box box-img1"><img src="img/zzzbaner.jpg" alt="banner" ></div>
+			<div class="intro__box box-img2"><img src="img/slider-lucky-green.jpg" alt="banner" srcset=""></div>
+				
+		</section>
+		<section class=" sec" id="arrivals">
+			<h2 class="sec__title">
+				НОВЫЕ ПОСТУПЛЕНИЯ
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/IMG_0620.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 1 Low WMNS "Unity"</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 27 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/air-force-1-low-tiffany-and-co.jpg" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">Air Force 1 Low "Tiffany & Co. 1837"</figcaption>
+						<span class="sec__brand">Nike</span>
+						<span class="sec__price">От 138 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-1-high-og-true-blue.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 1 Retro High OG "True Blue" </figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 30 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-4-craft-photon-dust.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 4 Retro SE "Craft Photon Dust"</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 43 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+		<section class=" sec" id="promo">
+			<h2 class="sec__title">
+				Акции
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/2002r-protection-pack-grey.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">530 "White Silver Navy"</figcaption>
+						<span class="sec__brand">NEW BALANCE </span>
+						<span class="sec__price">От 20 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/air-jordan-1-mid-se-gs-french-blue.jpg" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 1 Mid SE GS "French Blue Light" </figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 26 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-1-mid-utl-gs-fleece.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 1 Mid GS "Fleece Pearl White" </figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 30 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-1-low-gs-light-arctic-pink.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 1 Low GS "Light Arctic Pink</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 43 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+		<section class="sec" id ="yeezy">
+			<h2 class="sec__title">
+				YEEZY 350
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/Yeezy-Boost-350-V2-Mono-Mist.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Yeezy Boost 350 V2 "Mono Mist"</figcaption>
+						<span class="sec__brand">ADIDAS</span>
+						<span class="sec__price">От 29 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/yeezy-350-boost-v2-cmpct-slate-carbon.jpg" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">Yeezy Boost 350 V2 CMPCT "Slate Carbon"</figcaption>
+						<span class="sec__brand">ADIDAS</span>
+						<span class="sec__price">От 29 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/yeezy-boost-350-v2-desert-sage_79f64bce-df52-474d-a9e5-4c7a8f5b1c0b.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Yeezy Boost 350 V2 "Desert Sage" </figcaption>
+						<span class="sec__brand">ADIDAS</span>
+						<span class="sec__price">От 35 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/yeezy-boost-350-v2-mx-rock.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Yeezy Boost 350 V2 "MX Rock"</figcaption>
+						<span class="sec__brand">ADIDAS</span>
+						<span class="sec__price">От 37 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+
+		<section class="sec" id ="balance">
+			<h2 class="sec__title">
+				NEW BALANCE
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/mr530sg.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">530 "White Silver Navy"</figcaption>
+						<span class="sec__brand">NEW BALANCE</span>
+						<span class="sec__price">От 20 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/2002r-protection-pack-grey.jpg" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">2002R "Protection Pack - Rain Cloud"</figcaption>
+						<span class="sec__brand">NEW BALANCE</span>
+						<span class="sec__price">От 38 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/BB550WT1.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">550 "White Green"</figcaption>
+						<span class="sec__brand">NEW BALANCE</span>
+						<span class="sec__price">От 27 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/MR530EWB_09bf2e9d-21ce-40fd-a6b3-a985ebba3dc4.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">530 "White Black Details"</figcaption>
+						<span class="sec__brand">NEW BALANCE</span>
+						<span class="sec__price">От 27 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+		<section class="sec" id ="jordan">
+			<h2 class="sec__title">
+				AIR JORDAN 4
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-4-retro-red-thunder.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 4 Retro "Red Thunder"</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 48 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/air-jordan-4-a-ma-maniere-violet-ore.jpg" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 4 Retro "A Ma Maniére - Violet Ore"</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 52 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-4-midnight-navy.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 4 Retro "Midnight Navy" </figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 34 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/air-jordan-4-retro-zen-master.jpg" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Air Jordan 4 Retro "Zen Master"</figcaption>
+						<span class="sec__brand">Jordan</span>
+						<span class="sec__price">От 39 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+
+		<section class="sec" id ="toys">
+			<h2 class="sec__title">
+				КОЛЛЕКЦИОННЫЕ ФИГУРКИ
+			</h2>
+			<div class="sec__gallery">
+					<div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/image_1429.png" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Family Vinyl Figures "Grey Pink"</figcaption>
+						<span class="sec__brand">Kaws</span>
+						<span class="sec__price">От 100 000 ₽</span>
+
+
+					</div>
+					<div class="sec__item">
+						<figure class="sec__img ">
+							<img src="Ramst/image_1432.png" alt="Air Force 1 Low ">
+						</figure>
+						<figcaption class="sec__name">THE PROMISE Vinyl Figure "Brown"</figcaption>
+						<span class="sec__brand">Kaws</span>
+						<span class="sec__price">От 138 000 ₽</span>
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/image_1433.png" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Holiday Singapore Companion "Black" </figcaption>
+						<span class="sec__brand">Kaws</span>
+						<span class="sec__price">От 30 000 ₽</span>
+
+
+					</div><div class="sec__item">
+						<figure class="sec__img">
+							<img src="Ramst/image_1435.png" alt="Air Jordan">
+						</figure>
+						<figcaption class="sec__name">Companion Flayed Open Edition Vinyl Figure "Brown"</figcaption>
+						<span class="sec__brand">Kaws</span>
+						<span class="sec__price">От 43 000 ₽</span>
+				</div>
+			</div>
+			<div class="sec__action">
+				<button class="btn">Посмотреть всё</button>
+			</div>
+		</section>
+		
+		<section class="map">
+
+			<div class="map__content">
+
+			<div class="map__left">
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="510" id="gmap_canvas" src="https://maps.google.com/maps?q=Los Angeles&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:510px;width:100%;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:100%;}</style></div></div>
+			</div>
+
+				<div class="map__right">
+
+					<h2 class="map__title">Шоурум</h2>
+					<div class="map__phones">
+						<span>+7 915 463-98-53</span>
+						<span>+7 999 003-03-32</span>
+
+					</div>
+					<div class="map__address">
+						м. Бауманская / Красносельская
+	Улица Нижняя Красносельская 35с9
+	Цокольный этаж, помещение 003, Москва.
+					</div>
+
+					<div class="map__shedule">
+						Время работы: пн-вс 12:00-20:00
+					</div>
+
+	<div class="map__road">
+		<a class="map__road-link" href="#">Как дойти ?</a>
+	</div>
+
+
+
+				</div>
+			</div>
+
+		</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__content">
+
+				<div class="footer__header">
+					<div class="footer__title">
+						<h2>Ramster Shop</h2>
+					</div>
+					<div class="footer__logo">
+						<img src="img/IMG_4411.PNG" alt="logo">
+					</div>
+				</div>
+
+				<div class="footer__center">
+
+					<div class="footer__info">
+						<h3 class="footer__info-title">
+							Информация
+						</h3>
+
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__list-link">Шоурум</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Доставка и оплата</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Обмен и возврат</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Личный кабинет</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Контакты</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Отзывы</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">FAQ</a></li>
+						</ul>
+
+					</div>
+
+					<div class="footer__acc">
+				
+							<h3 class="footer__info-title">Личный кабинет</h3>
+						
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__list-link">Войти</a></li>
+							<li class="footer__item"><a href="#" class="footer__list-link">Корзина</a></li>
+						</ul>
+					</div>
+
+
+
+					<div class="footer__contact">
+		
+							<h3 class="footer__info-title">Контакты</h3>
+						
+							<div class="footer__phones">
+								<span>+7 (915) 463-98-53</span> <span>+7 (999) 003-03-32</span>
+							</div>
+		
+						<p>Улица Нижняя Красносельская 35с9, Цокольный этаж, помещение 003 Москва, Россия</p>
+						<p>Время работы: ежедневно с 12:00 до 20:00</p>
+
+							
+						<div class="footer__social">
+							<div class="footer__social-header"><h3>По всем вопросам</h3></div>
+							<div class="footer__social-icons">
+								<img class="footer__social-icon" src="/Ramst/icons8-telegram__1_.svg" alt="icon" >
+								<img class="footer__social-icon" src="/Ramst/icons8-whatsapp__1_.svg" alt="icon" >
+								<img class="footer__social-icon" src="/Ramst/icons8-instagram__1_.svg" alt="icon" >
+
+							</div>
+						</div>
+					
+					</div>
+
+
+
+				</div>
+				<div class="footer__author">
+					@NewGen 2023 - Abdulla Gassanov for Ramster Shop. It's copy
+				</div>
+			</div>
+			
+		</footer>
+		
+	</div>
+
+
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
